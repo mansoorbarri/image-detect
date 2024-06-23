@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "name": "image-detect",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/assets/css/raw.styles.css -o ./src/assets/css/main.styles.css --watch",
+    "built": "npx tailwindcss -i ./src/assets/css/raw.styles.css -o ./src/assets/css/main.styles.css"
+  }
+}
